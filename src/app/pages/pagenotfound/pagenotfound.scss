@@ -1,0 +1,28 @@
+.notfound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zero {
+    background: linear-gradient(
+        180deg,
+        #239FBC 0%,
+        #E7D8A7 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.notfoundtitle {
+    padding: 0;
+    margin: 0;
+    font-size: 150px;
+}
+
+.notfound p {
+    margin-bottom: 30px;
+}

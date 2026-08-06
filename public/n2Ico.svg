@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2850 1350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="N2">
+        <g transform="matrix(0.991062,0,0,1.04151,-141.279549,-717.519545)">
+            <path d="M1415.768,1098.23L2822.725,1098.23C2892.728,1098.23 2949.561,1151.729 2949.561,1217.625L2949.561,1456.416C2949.561,1522.312 2892.728,1575.811 2822.725,1575.811L1415.768,1575.811C1447.947,1502.17 1465.696,1421.531 1465.696,1337.02C1465.696,1252.51 1447.947,1171.871 1415.768,1098.23Z" style="fill:rgb(88,129,87);"/>
+        </g>
+        <g transform="matrix(1.052824,0,0,1.04151,-506.592127,-210.411866)">
+            <circle cx="1097.92" cy="850.124" r="552.08" style="fill:rgb(173,173,173);"/>
+        </g>
+        <g transform="matrix(1.084758,0,0,1.073101,-666.880206,-415.453072)">
+            <circle cx="1213.362" cy="1016.17" r="436.638" style="fill:rgb(88,129,87);"/>
+        </g>
+        <g transform="matrix(13.919962,0,0,13.770369,-7851.473298,-15816.242828)">
+            <g transform="matrix(50,0,0,50,630.58863,1215.252605)">
+            </g>
+            <text x="590.55px" y="1215.253px" style="font-family:'Haettenschweiler', sans-serif;font-size:50px;fill:rgb(237,237,233);">N2</text>
+        </g>
+    </g>
+</svg>

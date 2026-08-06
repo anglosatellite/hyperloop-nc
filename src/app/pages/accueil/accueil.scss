@@ -1,0 +1,33 @@
+.banner img {
+    border-radius: var(--rounding);
+    width: 650px;
+}
+
+.banner {
+    display: flex;
+    gap: 30px;
+}
+
+.banner p {
+    max-width: 80%;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.lines-list-home {
+    background-color: var(--turquoise-light);
+    border-radius: var(--rounding);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.lines-list-home img {
+    width: 150px;
+}
