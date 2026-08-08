@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-tarifs',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './tarifs.html',
   styleUrl: './tarifs.scss',
 })

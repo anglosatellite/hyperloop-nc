@@ -60,7 +60,7 @@ thead th:first-child {
 }
 
 thead th:last-child {
-    border-radius: 0 6px 0 0;
+    border-radius: var(--rounding);
 }
 
 tbody tr {

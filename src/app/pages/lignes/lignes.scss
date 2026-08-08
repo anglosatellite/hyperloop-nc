@@ -31,7 +31,7 @@ li {
     width: fit-content;
     gap: 30px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: var(--rounding);
     background: var(--turquoise-light);
 }
 
