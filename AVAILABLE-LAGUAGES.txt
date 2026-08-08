@@ -1,0 +1,6 @@
+Available languages (i18n) :
+
+English - npm run start:en
+Korean - npm run start:ko
+Japanese - npm run start:ja
+Spanish - npm run start:es
