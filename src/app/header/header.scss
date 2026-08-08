@@ -24,14 +24,6 @@ nav ul {
     padding: 0;
 }
 
-nav select {
-    font-size: 20px;
-    padding: 5px;
-    background-color: var(--white);
-    border-color: #747472;
-    border-radius: 3px;
-}
-
 nav a {
     text-decoration: none;
     color: var(--turquoise-dark);
@@ -44,5 +36,9 @@ nav a:hover {
     background-color: var(--turquoise-main);
     padding: 5px 20px;
     border-radius: 2px;
+}
+
+nav select {
+    font-size: 20px;
 }
 

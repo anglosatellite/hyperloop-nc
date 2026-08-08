@@ -1,0 +1,83 @@
+.hour-table {
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: var(--rounding);
+}
+
+.schedule-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 20px;
+}
+
+.schedule-header h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.schedule-header select {
+    padding: 5px 10px;
+}
+
+.schedule-header img {
+    width: 150px;
+}
+
+.schedule-header p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 17px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+th,
+td {
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 1px solid #dbe6e3;
+}
+
+thead th {
+    background-color: var(--turquoise-dark);
+    color: white;
+    font-weight: bold;
+}
+
+thead th:first-child {
+    border-radius: 6px 0 0 0;
+    text-align: left;
+}
+
+thead th:last-child {
+    border-radius: 0 6px 0 0;
+}
+
+tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+tbody tr:hover {
+    background-color: var(--turquoise-light);
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.station {
+    text-align: left;
+    font-weight: bold;
+    color: var(--turquoise-dark);
+    white-space: nowrap;
+}

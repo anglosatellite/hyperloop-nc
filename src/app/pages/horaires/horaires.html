@@ -1,1 +1,32 @@
 <h1><i class="fa-solid fa-clock"></i> Horaires Hyperloop</h1>
+
+<section class="hour-table" *ngIf="selectedSchedule">
+    <div class="schedule-header">
+        <img *ngIf="selectedLineInfo" src="{{ selectedLineInfo.lineIcon }}" alt="Ligne icône"/>
+        <h2>Ligne {{ selectedSchedule.lineName }}</h2>
+        <p>Toutes les heures</p>
+        <select [(ngModel)]="selectedLine">
+            <option *ngFor="let line of lines" [value]="line.lineName">
+                {{ line.lineName }}
+            </option>
+        </select>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Gare</th>
+                <th *ngFor="let departure of selectedSchedule.departures">
+                    {{ departure.departure }}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let station of getStations(); let i = index">
+                <td>{{ station }}</td>
+                <td *ngFor="let departure of selectedSchedule.departures">
+                    {{ departure.times[i] }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
