@@ -17,6 +17,27 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "fr-FR",
+        "locales": {
+          "en": {
+            "translation": "src/locale/messages.en.xlf",
+            "baseHref": ""
+          },
+          "es": {
+            "translation": "src/locale/messages.es.xlf",
+            "baseHref": ""
+          },
+          "ko": {
+            "translation": "src/locale/messages.ko.xlf",
+            "baseHref": ""
+          },
+          "ja": {
+            "translation": "src/locale/messages.ja.xlf",
+            "baseHref": ""
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
@@ -30,9 +51,8 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ]
+            "styles": ["src/styles.scss"],
+            "polyfills": ["@angular/localize/init"]
           },
           "configurations": {
             "production": {
@@ -50,6 +70,26 @@
               ],
               "outputHashing": "all"
             },
+            "en": {
+              "localize": ["en"],
+              "outputPath": "dist/site-en/",
+              "i18nMissingTranslation": "error"
+            },
+            "es": {
+              "localize": ["es"],
+              "outputPath": "dist/site-es/",
+              "i18nMissingTranslation": "error"
+            },
+            "ko": {
+              "localize": ["ko"],
+              "outputPath": "dist/site-ko/",
+              "i18nMissingTranslation": "error"
+            },
+            "ja": {
+              "localize": ["ja"],
+              "outputPath": "dist/site-ja/",
+              "i18nMissingTranslation": "error"
+            },
             "development": {
               "optimization": false,
               "extractLicenses": false,
@@ -61,6 +101,18 @@
         "serve": {
           "builder": "@angular/build:dev-server",
           "configurations": {
+            "en": {
+              "buildTarget": "hyperloopNC:build:en"
+            },
+            "es": {
+              "buildTarget": "hyperloopNC:build:es"
+            },
+            "ko": {
+              "buildTarget": "hyperloopNC:build:ko"
+            },
+            "ja": {
+              "buildTarget": "hyperloopNC:build:ja"
+            },
             "production": {
               "buildTarget": "hyperloopNC:build:production"
             },

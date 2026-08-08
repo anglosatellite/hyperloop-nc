@@ -1,10 +1,10 @@
-<h1><i class="fa-solid fa-clock"></i> Horaires Hyperloop</h1>
+<h1 i18n><i class="fa-solid fa-clock"></i> Horaires Hyperloop</h1>
 
 <section class="hour-table" *ngIf="selectedSchedule">
     <div class="schedule-header">
         <img *ngIf="selectedLineInfo" src="{{ selectedLineInfo.lineIcon }}" alt="Ligne icône"/>
-        <h2>Ligne {{ selectedSchedule.lineName }}</h2>
-        <p>Toutes les heures</p>
+        <h2 i18n>Ligne {{ selectedSchedule.lineName }}</h2>
+        <p i18n>Toutes les heures</p>
         <select [(ngModel)]="selectedLine">
             <option *ngFor="let line of lines" [value]="line.lineName">
                 {{ line.lineName }}
@@ -14,7 +14,7 @@
     <table>
         <thead>
             <tr>
-                <th>Gare</th>
+                <th i18n>Gare</th>
                 <th *ngFor="let departure of selectedSchedule.departures">
                     {{ departure.departure }}
                 </th>

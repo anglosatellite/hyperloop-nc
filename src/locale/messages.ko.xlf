@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr-FR" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7205277297240596213" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/accueil&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-house-chimney&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 홈<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/last app/footer/footer.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="1101907252967633006" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/lignes&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-map&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 노선<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="3682825736383398506" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/horaires&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-clock&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 시간표<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="8947337741979440489" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/tarifs&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-ticket&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 요금<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="5620138582131389977" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/contact&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-phone&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 문의하기<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="4385085475113933334" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/faq&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-circle-question&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> FAQ<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="5368294940577992059" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/mentions&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-scale-unbalanced-flip&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 법적 고지<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="8593026922601051809" datatype="html">
+        <source>© 2026 NéoLoop Nouvelle-Calédonie — 모든 권리 보유.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="5772857578048610547" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-location-dot&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 뉴칼레도니아를 빠르게 여행하세요</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/accueil/accueil.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="4406353429386943245" datatype="html">
+        <source>그랑드테르의 주요 도시와 로열티 제도를 몇 분 만에 연결하는 새로운 교통수단을 만나보세요.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/accueil/accueil.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="2189520018072379079" datatype="html">
+        <source>시간표 확인</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/accueil/accueil.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="5834378318582084434" datatype="html">
+        <source>노선 알아보기</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/accueil/accueil.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="6734318636846257313" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-globe&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 전 지역을 아우르는 네트워크</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/accueil/accueil.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7273658608282577921" datatype="html">
+        <source>Hyperloop 네트워크는 여러 정규 및 급행 노선을 통해 그랑드테르의 주요 도시와 로열티 제도를 연결합니다.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/accueil/accueil.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7715431981414063641" datatype="html">
+        <source>노선 확인</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/accueil/accueil.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="2262209011685087427" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-suitcase&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 여행에 맞는 다양한 좌석 클래스</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/accueil/accueil.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="206957805533985416" datatype="html">
+        <source>업무, 학업 또는 관광을 위해 여행하시든, NéoLoop Nouvelle-Calédonie는 모든 필요에 맞춰 설계된 세 가지 여행 클래스를 제공합니다. 예산과 필요에 맞는 편안함과 서비스를 만나보세요.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/accueil/accueil.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="8725349685393909991" datatype="html">
+        <source>요금 확인</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/accueil/accueil.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="2914482930757579231" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-clock&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Hyperloop 시간표</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/horaires/horaires.html</context>
+          <context context-type="linenumber">1,3</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="5690545873581037173" datatype="html">
+        <source>노선 <x id="INTERPOLATION" equiv-text="{{ selectedSchedule.lineName }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/horaires/horaires.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="5771804570900892671" datatype="html">
+        <source>매시간</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/horaires/horaires.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="909159998462372959" datatype="html">
+        <source>역</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/horaires/horaires.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="584292517387832494" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-map&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Hyperloop 노선</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/lignes/lignes.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="6945736999323034205" datatype="html">
+        <source>그랑드테르, 로열티 제도 및 주요 경제 중심지를 연결하는 Néo-Calédonien Hyperloop 네트워크 전체를 확인해 보세요.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/lignes/lignes.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="6274154086072735277" datatype="html">
+        <source>요청하신 페이지를 현재 이용할 수 없습니다.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pagenotfound/pagenotfound.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7756939295345942986" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-house-chimney-window&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 홈으로 돌아가기</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pagenotfound/pagenotfound.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="2980014963124923110" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-ticket&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 요금 안내</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">1,3</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7424610300520378576" datatype="html">
+        <source>3등급 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> 기본</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="4512482733348782076" datatype="html">
+        <source>합리적인 요금</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="3554995357324397429" datatype="html">
+        <source>일반 좌석</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="4758377766068548753" datatype="html">
+        <source>모든 정규 노선 이용 가능</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="8324281200620501351" datatype="html">
+        <source>일상적인 이동에 적합</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="6586372792981558878" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-arrow-up-right-from-square&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 예약하기</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">15,18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">29,32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">43,45</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="3854433517157467222" datatype="html">
+        <source>2등급 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> 편안함</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="6546366496325553800" datatype="html">
+        <source>더 넓고 편안한 좌석</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="5897262147068707849" datatype="html">
+        <source>조용한 공간</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="6313733045184713079" datatype="html">
+        <source>전원 콘센트</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="1844015471270409430" datatype="html">
+        <source>Wi-Fi 포함</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="4961370748064002595" datatype="html">
+        <source>1등급 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> 프리미엄</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">34,36</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="6636990079062956135" datatype="html">
+        <source>개인 공간</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="4430677774387284833" datatype="html">
+        <source>고속 Wi-Fi</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="353703010541894663" datatype="html">
+        <source>기내 서비스</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7387214424421493241" datatype="html">
+        <source>우선 탑승</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tarifs/tarifs.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+
+    <trans-unit id="2870330503119461783" datatype="html">
+      <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-route&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Lignes régulières</source>
+      <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-route&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 일반 노선</target>
+    </trans-unit>
+
+    <trans-unit id="6573625829604111158" datatype="html">
+      <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-route&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Lignes express</source>
+      <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-route&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 급행 노선</target>
+    </trans-unit>
+
+    <trans-unit id="9200779965294471498" datatype="html">
+      <source>Les horaires peuvent varier selon les jours fériés, les événements exceptionnels ou les conditions météorologiques. Nous vous invitons à consulter les horaires en temps réel avant votre départ.</source>
+      <target>공휴일, 특별 행사 또는 기상 상황에 따라 운행 시간이 변경될 수 있습니다. 출발 전에 실시간 운행 시간을 확인하시기 바랍니다.</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/app/pages/lignes/lignes.html</context>
+        <context context-type="linenumber">7,8</context>
+      </context-group>
+    </trans-unit>
+    </body>
+  </file>
+</xliff>

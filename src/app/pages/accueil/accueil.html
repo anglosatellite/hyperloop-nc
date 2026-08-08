@@ -2,12 +2,12 @@
     <section class="banner">
         <div>
             <div>
-                <h1><i class="fa-solid fa-location-dot"></i> Voyagez à travers la Nouvelle-Calédonie à grande vitesse</h1>
-                <p>Découvrez un nouveau moyen de transport reliant les principales villes de la Grande Terre et les Îles Loyauté en quelques minutes.</p>
+                <h1 i18n><i class="fa-solid fa-location-dot"></i> Voyagez à travers la Nouvelle-Calédonie à grande vitesse</h1>
+                <p i18n>Découvrez un nouveau moyen de transport reliant les principales villes de la Grande Terre et les Îles Loyauté en quelques minutes.</p>
             </div>
             <div class="button-row">
-                <a routerLink="/horaires" class="button primary">Consulter les horaires</a>
-                <a routerLink="/reseau" class="button secondary">Découvrir le réseau</a>
+                <a routerLink="/horaires" class="button primary" i18n>Consulter les horaires</a>
+                <a routerLink="/reseau" class="button secondary" i18n>Découvrir le réseau</a>
             </div>
         </div>
         <div>
@@ -21,15 +21,15 @@
         </div>
         
         <div>
-            <h1><i class="fa-solid fa-globe"></i> Un réseau couvrant tout le territoire</h1>
-            <p>Le réseau Hyperloop dessert les principales communes de la Grande Terre ainsi que les Îles Loyauté grâce à plusieurs lignes régulières et express.</p>
+            <h1 i18n><i class="fa-solid fa-globe"></i> Un réseau couvrant tout le territoire</h1>
+            <p i18n>Le réseau Hyperloop dessert les principales communes de la Grande Terre ainsi que les Îles Loyauté grâce à plusieurs lignes régulières et express.</p>
             <div class="lines-list-home">
                 <ng-container *ngFor="let line of lines">
                     <img src="{{ line.lineIcon }}" alt="Icône ligne {{ line.lineName }}"/>
                 </ng-container>
             </div>
             <div class="button-row">
-                <a routerLink="/lignes" class="button primary">Consulter les lignes</a>
+                <a routerLink="/lignes" class="button primary" i18n>Consulter les lignes</a>
             </div>
         </div>
     </section>
@@ -37,11 +37,11 @@
     <section class="banner">
         <div>
             <div>
-                <h1><i class="fa-solid fa-suitcase"></i> Des classes adaptées à chaque voyage</h1>
-                <p>Que vous voyagiez pour le travail, les études ou le tourisme, NéoLoop Nouvelle-Calédonie propose trois classes de voyage pensées pour répondre à tous les besoins. Découvrez un niveau de confort et de services adapté à votre budget et à vos attentes.</p>
+                <h1 i18n><i class="fa-solid fa-suitcase"></i> Des classes adaptées à chaque voyage</h1>
+                <p i18n>Que vous voyagiez pour le travail, les études ou le tourisme, NéoLoop Nouvelle-Calédonie propose trois classes de voyage pensées pour répondre à tous les besoins. Découvrez un niveau de confort et de services adapté à votre budget et à vos attentes.</p>
             </div>
             <div class="button-row">
-                <a routerLink="/tarifs" class="button primary">Consulter les tarifs</a>
+                <a routerLink="/tarifs" class="button primary" i18n>Consulter les tarifs</a>
             </div>
         </div>
         <div>

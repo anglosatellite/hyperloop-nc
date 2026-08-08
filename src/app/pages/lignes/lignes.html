@@ -1,15 +1,15 @@
-<h1><i class="fa-solid fa-map"></i> Nos lignes Hyperloop</h1>
+<h1 i18n><i class="fa-solid fa-map"></i> Nos lignes Hyperloop</h1>
 <section class="description">
-    <p>Découvrez l'ensemble du réseau Hyperloop Néo-Calédonien reliant la Grande Terre, les Îles Loyauté et les principaux pôles économiques du territoire.</p>
+    <p i18n>Découvrez l'ensemble du réseau Hyperloop Néo-Calédonien reliant la Grande Terre, les Îles Loyauté et les principaux pôles économiques du territoire.</p>
     
     <div class="info-box">
         <div><i class="fa-solid fa-circle-info"></i></div>
-        <div>Les horaires peuvent varier selon les jours fériés, les événements exceptionnels ou les conditions météorologiques. Nous vous invitons à consulter les horaires en temps réel avant votre départ.</div>
+        <div i18n>Les horaires peuvent varier selon les jours fériés, les événements exceptionnels ou les conditions météorologiques. Nous vous invitons à consulter les horaires en temps réel avant votre départ.</div>
     </div>
 </section>
 
 <section>
-    <h2><i class="fa-solid fa-train-subway"></i> Lignes régulières</h2>
+    <h2 i18n><i class="fa-solid fa-train-subway"></i> Lignes régulières</h2>
     <ul class="lines-list">
         <ng-container *ngFor="let line of lines">
             <li *ngIf="line.lineType === 'default'" class="hyperloop-line">
@@ -28,7 +28,7 @@
 </section>
 
 <section>
-    <h2><i class="fa-solid fa-train-subway"></i> Lignes express</h2>
+    <h2 i18n><i class="fa-solid fa-train-subway"></i> Lignes express</h2>
     <ul class="lines-list">
         <ng-container *ngFor="let line of lines">
             <li *ngIf="line.lineType === 'express'" class="hyperloop-line">

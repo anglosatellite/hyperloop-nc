@@ -4,19 +4,25 @@
   "scripts": {
     "ng": "ng",
     "start": "concurrently \"ng serve --open\" \"json-server --watch hyperloop.json\"",
+    "start:en": "concurrently \"ng serve --configuration=en --port=4201 --open\" \"json-server --watch hyperloop.json\"",
+    "start:es": "concurrently \"ng serve --configuration=es --port=4202 --open\" \"json-server --watch hyperloop.json\"",
+    "start:ko": "concurrently \"ng serve --configuration=ko --port=4203 --open\" \"json-server --watch hyperloop.json\"",
+    "start:ja": "concurrently \"ng serve --configuration=ja --port=4204 --open\" \"json-server --watch hyperloop.json\"",
+
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "i18n:extract": "ng extract-i18n --output-path src/locale"
   },
   "private": true,
   "packageManager": "npm@11.12.0",
   "dependencies": {
-    "@angular/common": "^21.2.0",
-    "@angular/compiler": "^21.2.0",
-    "@angular/core": "^21.2.0",
-    "@angular/forms": "^21.2.0",
-    "@angular/platform-browser": "^21.2.0",
-    "@angular/router": "^21.2.0",
+    "@angular/common": "^21.2.19",
+    "@angular/compiler": "^21.2.19",
+    "@angular/core": "^21.2.19",
+    "@angular/forms": "^21.2.19",
+    "@angular/platform-browser": "^21.2.19",
+    "@angular/router": "^21.2.19",
     "@fortawesome/fontawesome-svg-core": "^7.3.1",
     "@fortawesome/free-brands-svg-icons": "^7.3.1",
     "@fortawesome/free-regular-svg-icons": "^7.3.1",
@@ -27,7 +33,8 @@
   "devDependencies": {
     "@angular/build": "^21.2.19",
     "@angular/cli": "^21.2.19",
-    "@angular/compiler-cli": "^21.2.0",
+    "@angular/compiler-cli": "^21.2.19",
+    "@angular/localize": "^21.2.19",
     "jsdom": "^28.0.0",
     "prettier": "^3.8.1",
     "typescript": "~5.9.2",
